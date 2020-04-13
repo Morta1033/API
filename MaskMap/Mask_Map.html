@@ -40,8 +40,6 @@
                         var longitude_and_latitude = data.features[i].geometry.coordinates;
                         var station = new google.maps.LatLng(longitude_and_latitude[1], longitude_and_latitude[0]);
 
-                        var iconBase = "/images"
-
                         var adult_mask = data.features[i].properties.masksLeft;
                         var child_mask = data.features[i].properties.childMasksLeft;
                         // console.log(adult_mask);
